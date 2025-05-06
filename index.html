@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Car Rental</title>
+    <script src="https://unpkg.com/htmx.org@1.9.10"
+        integrity="sha384-D1Kt99CQMDuVetoL1lrYwg5t+9QdHe7NLX/SoJYkXDFfX37iInKRy5xLSi8nO7UC"
+        crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <header>
+        <nav data-hx-trigger="load" data-hx-get="partials/global.header-nav.partial.html" data-hx-swap="outerHTML">
+        </nav>
+    </header>
+
+    <main>
+        <section data-hx-get="partials/index.hero.partial.html" data-hx-trigger="load" data-hx-swap="outerHTML">
+        </section>
+        <section data-hx-get="partials/index.about-us.partial.html" data-hx-trigger="load" data-hx-swap="outerHTML">
+        </section>
+        <section data-hx-get="partials/index.brief-history.partial.html" data-hx-trigger="load"
+            data-hx-swap="outerHTML"></section>
+        <section data-hx-get="partials/index.responsibility.partial.html" data-hx-trigger="load"
+            data-hx-swap="outerHTML"></section>
+        <section data-hx-get="partials/index.vehicles-of-the-month.partial.html" data-hx-trigger="load"
+            data-hx-swap="outerHTML"></section>
+        <section data-hx-get="partials/index.request.partial.html" data-hx-trigger="load" data-hx-swap="outerHTML">
+        </section>
+        <section data-hx-get="partials/index.pickup.partial.html" data-hx-trigger="load" data-hx-swap="outerHTML">
+        </section>
+        <section data-hx-get="partials/index.contact.partial.html" data-hx-trigger="load" data-hx-swap="outerHTML">
+        </section>
+        <section data-hx-get="partials/index.manufacturers.partial.html" data-hx-trigger="load"
+            data-hx-swap="outerHTML"></section>
+        <section data-hx-get="partials/index.pricing.partial.html" data-hx-trigger="load" data-hx-swap="outerHTML">
+        </section>
+        <section data-hx-get="partials/index.team.partial.html" data-hx-trigger="load" data-hx-swap="outerHTML">
+        </section>
+        <section data-hx-get="partials/index.testimonials.partial.html" data-hx-trigger="load" data-hx-swap="outerHTML">
+        </section>
+        <section data-hx-get="partials/index.faq.partial.html" data-hx-trigger="load" data-hx-swap="outerHTML">
+        </section>
+        <section data-hx-get="partials/index.map.partial.html" data-hx-trigger="load" data-hx-swap="outerHTML">
+        </section>
+    </main>
+
+    <footer data-hx-get="partials/global.footer.partial.html" data-hx-trigger="load" data-hx-swap="outerHTML"></footer>
+</body>
+
+</html>
