@@ -1,0 +1,19 @@
+
+.hero__categories {
+    margin-top: 100px;
+    display: flex;
+    justify-content: center;
+    gap: 32px;
+    flex-wrap: wrap;
+}
+
+.hero__card {
+    background-color: white;
+    border-radius: 12px;
+    padding: 24px;
+    width: 280px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}

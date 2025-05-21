@@ -8,6 +8,7 @@
     <script src="https://unpkg.com/htmx.org@1.9.10"
         integrity="sha384-D1Kt99CQMDuVetoL1lrYwg5t+9QdHe7NLX/SoJYkXDFfX37iInKRy5xLSi8nO7UC"
         crossorigin="anonymous"></script>
+        <link rel="stylesheet" href="css/index.css">
 </head>
 
 <body>
@@ -19,13 +20,15 @@
     <main>
         <section data-hx-get="partials/index.hero.partial.html" data-hx-trigger="load" data-hx-swap="outerHTML">
         </section>
+                <section data-hx-get="partials/index.car-categories.partial.html" data-hx-trigger="load" data-hx-swap="outerHTML">
+        </section>
         <section data-hx-get="partials/index.about-us.partial.html" data-hx-trigger="load" data-hx-swap="outerHTML">
         </section>
         <section data-hx-get="partials/index.brief-history.partial.html" data-hx-trigger="load"
             data-hx-swap="outerHTML"></section>
         <section data-hx-get="partials/index.responsibility.partial.html" data-hx-trigger="load"
             data-hx-swap="outerHTML"></section>
-        <section data-hx-get="partials/index.vehicles-of-the-month.partial.html" data-hx-trigger="load"
+        <section data-hx-get="partials/index.cars-of-the-month.partial.html" data-hx-trigger="load"
             data-hx-swap="outerHTML"></section>
         <section data-hx-get="partials/index.request.partial.html" data-hx-trigger="load" data-hx-swap="outerHTML">
         </section>
