@@ -4,9 +4,10 @@
 }
 
 .header__container {
-  max-width: 1200px;
+  max-width: 1500px;
   margin: 0 auto;
-  padding: 0 15px;
+  padding-left: 150px;
+  padding-right: 40px;
   display: flex;
   justify-content: space-between;
   align-items: center;

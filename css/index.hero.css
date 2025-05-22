@@ -1,6 +1,6 @@
 .hero {
     background-color: var(--color-background);
-    padding: 120px 110px;
+    padding: 110px 0px 0px 0px;
     position: relative;
     overflow: hidden;
     text-align: center;
@@ -94,23 +94,24 @@
 
 .hero__btn--secondary:hover {
     background-color: var(--color-brand);
-    color: white;
+    color: var(--color-background);
 }
 
 .hero__image-wrapper {
     max-width: none;
     position: absolute;
-    right: 0;
-    transform: translateX(20%);
+    left: 0;
     z-index: 0;
-    width: 1800px;
-    height: 570px;
+    width: 100%;
+    height: auto;
 }
 
 .hero__image {
     width: 100%;
     height: auto;
     display: block;
+    object-fit: cover;
+    transform: scale(1.6);
 }
 
 .hero__list {

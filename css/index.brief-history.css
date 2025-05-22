@@ -1,0 +1,44 @@
+.brief-history {
+  padding: 80px 20px;
+  background-color: var(--color-background);
+  font-family: var(--font-main);
+}
+
+.brief-history__container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.brief-history__pretitle {
+  font-size: 17px;
+  color: var(--color-accent); 
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  margin-bottom: 10px;
+  text-align: center;
+  font-family: var(--font-secondary);
+}
+
+.brief-history__title {
+  font-size: 65px;
+  font-weight: 800;
+  color: var(--color-primary); 
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+.brief-history__text {
+  font-size: 20px;
+  color: var(--color-secondary);
+  text-align: center;
+  max-width: 900px;
+  margin: 0 auto 60px;
+  line-height: 1.6;
+}
+
+.brief-history-2010__image {
+  background-image: url('img/black-dashboard.webp');
+  transform: scaleX(-1);
+}
+

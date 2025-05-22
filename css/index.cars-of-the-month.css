@@ -1,0 +1,82 @@
+.cars-of-the-month {
+  background-color: #222222;
+  padding: 80px 0;
+  text-align: center;
+}
+
+.cars-of-the-month__container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+.cars-of-the-month__pretitle {
+  color: var(--color-accent);
+  font-family: var(--font-secondary);
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 14px;
+  margin-bottom: 10px;
+}
+
+.cars-of-the-month__title {
+  font-size: 42px;
+  font-family: var(--font-main);
+  margin-bottom: 20px;
+  color: white;
+}
+
+.cars-of-the-month__description {
+  font-size: 18px;
+  color: #aaa;
+  margin: 0 auto 40px;
+  max-width: 800px;
+}
+
+.cars-of-the-month__list {
+  display: flex;
+  gap: 24px;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.cars-of-the-month__item {
+  background-color: #222222;
+  border-radius: 8px;
+  padding: 20px;
+  width: 300px;
+  text-align: left;
+  box-sizing: border-box;
+}
+
+.car-of-the-month__image {
+  width: 335px;
+  height: 365px;
+  overflow: hidden;
+  border-radius: 8px;
+  margin-bottom: 12px;
+}
+
+.car-of-the-month__image img {
+  width: 100%;
+  height: 100%;
+  display: block;
+  object-fit: cover;
+}
+
+.cars-of-the-month__name {
+  font-size: 20px;
+  font-family: var(--font-main);
+  font-weight: bold;
+  color: white;
+  margin-bottom: 8px;
+  text-align: center;
+}
+
+.cars-of-the-month__text {
+  font-size: 16px;
+  font-family: var(--font-secondary);
+  color: #ccc;
+  line-height: 1.5;
+  text-align: center;
+}

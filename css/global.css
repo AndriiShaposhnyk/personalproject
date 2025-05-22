@@ -23,10 +23,7 @@ body {
     --color-secondary: #898989;
     --color-accent: #f6c43d;
     --color-brand: #1088e4;
-    --color-background: #f7f8fa;
+    --color-background: #ffffff;
+    --color-background-secondary: #f6f6f6;
 }
 
-.img {
-    display: block;
-    width: 100%
-}
