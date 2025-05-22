@@ -2,13 +2,15 @@
     max-width: 2590px;
     height: 650px;
     padding: 0 0 60px 0;
-    margin: 0 auto;
+    margin: -190px auto 0 auto;
     display: flex;
     justify-content: center;
     gap: 40px;
     background-color: var(--color-background-secondary);
     flex-wrap: wrap;
     text-align: center;
+    z-index: 1;
+    position: relative;
 }
 
 .car-categories__card {
