@@ -1,0 +1,106 @@
+.fastcar__headquarter {
+  position: relative;
+  height: 450px; 
+  overflow: hidden;
+}
+
+.fastcar__headquarter-container {
+    position: relative;
+    z-index: 2;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 50px 20px;
+    height: 100%;
+}
+
+.fastcar__headquarter-map {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+}
+
+.fastcar__headquarter-pretitle {
+    font-size: 14px;
+    color: var(--color-accent);
+    text-transform: uppercase;
+    font-weight: 600;
+    margin-bottom: 8px;
+    letter-spacing: 1px;
+    text-align: center;
+}
+
+.fastcar__headquarter-title {
+    font-size: 36px;
+    font-weight: 700;
+    color: #222;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.fastcar__headquarter-address {
+    font-size: 16px;
+    color: #555;
+    margin-bottom: 12px;
+    line-height: 1.5;
+    text-align: center;
+}
+
+.fastcar__headquarter-phone {
+    font-size: 16px;
+    color: var(--color-accent);
+    font-weight: 600;
+    margin-bottom: 8px;
+    text-align: center;
+}
+
+.fastcar__headquarter-email {
+    font-size: 16px;
+    color: var(--color-accent);
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.fastcar__headquarter-socials {
+    display: flex;
+    gap: 16px;
+    margin-bottom: 24px;
+    justify-content: center;
+}
+
+.fastcar__headquarter-social-link img {
+    width: 24px;
+    height: 24px;
+    transition: transform 0.3s ease;
+}
+
+.fastcar__headquarter-social-link:hover img {
+    transform: scale(1.1);
+}
+
+.fastcar__headquarter-button {
+    display: inline-block;
+    padding: 14px 32px;
+    background-color: var(--color-accent);
+    color: white;
+    font-size: 16px;
+    font-weight: 600;
+    text-decoration: none;
+    border-radius: 30px;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.fastcar__headquarter-info {
+    background-color: #ffffff;
+    padding: 40px 32px;
+    border-radius: 12px;
+    max-width: 400px;
+}
+
+.fastcar__headquarter-button-wrapper {
+    display: flex;
+    justify-content: center;
+    margin-top: 16px;
+}
