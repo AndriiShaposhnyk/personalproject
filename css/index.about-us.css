@@ -39,7 +39,7 @@
 }
 
 .about-us__text {
-    max-width: 320px;
+  max-width: 320px;
   font-size: 17px;
   font-family: var(--font-secondary);
   color: var(--color-secondary);
@@ -48,7 +48,7 @@
 }
 
 .about-us__btn {
-    margin-top: 40px;
+  margin-top: 40px;
   display: inline-block;
   background-color: var(--color-brand);
   color: white;
@@ -96,7 +96,8 @@
 
   .about-us__content {
     padding: 20px;
-    background-color: rgba(255, 255, 255, 0.9); /* якщо фон недостатньо контрастний */
+    background-color: rgba(255, 255, 255, 0.9);
+    /* якщо фон недостатньо контрастний */
     border-radius: 8px;
     z-index: 2;
     max-width: 100%;
@@ -132,5 +133,15 @@
     width: 100%;
     height: auto;
     object-fit: cover;
+  }
+}
+
+@media (min-width: 769px) and (max-width: 1024px) {
+  .about-us__container {
+    padding: 0 60px;
+  }
+
+  .about-us__image img {
+    object-position: 50% center;
   }
 }

@@ -97,7 +97,7 @@
 .fastcar__headquarter-button:hover {
     transform: scale(1.1);
     color: var(--color-primary);
-    transition: color 0.6s ease, transform 0.6s ease; 
+    transition: color 0.6s ease, transform 0.6s ease;
 }
 
 .fastcar__headquarter-info {
@@ -114,48 +114,48 @@
 }
 
 @media (max-width: 768px) {
-  .fastcar__headquarter {
-    height: auto;
-  }
+    .fastcar__headquarter {
+        height: auto;
+    }
 
-  .fastcar__headquarter-container {
-    padding: 40px 16px;
-  }
+    .fastcar__headquarter-container {
+        padding: 40px 16px;
+    }
 
-  .fastcar__headquarter-info {
-    max-width: 100%;
-    padding: 24px 20px;
-  }
+    .fastcar__headquarter-info {
+        max-width: 100%;
+        padding: 24px 20px;
+    }
 
-  .fastcar__headquarter-title {
-    font-size: 28px;
-    margin-bottom: 16px;
-  }
+    .fastcar__headquarter-title {
+        font-size: 28px;
+        margin-bottom: 16px;
+    }
 
-  .fastcar__headquarter-address,
-  .fastcar__headquarter-phone,
-  .fastcar__headquarter-email {
-    font-size: 15px;
-    width: 100%;
-  }
+    .fastcar__headquarter-address,
+    .fastcar__headquarter-phone,
+    .fastcar__headquarter-email {
+        font-size: 15px;
+        width: 100%;
+    }
 
-  .fastcar__headquarter-socials {
-    gap: 12px;
-    margin-bottom: 20px;
-  }
+    .fastcar__headquarter-socials {
+        gap: 12px;
+        margin-bottom: 20px;
+    }
 
-  .fastcar__headquarter-social-link img {
-    width: 20px;
-    height: 20px;
-  }
+    .fastcar__headquarter-social-link img {
+        width: 20px;
+        height: 20px;
+    }
 
-  .fastcar__headquarter-button {
-    width: 100%;
-    padding: 12px;
-    font-size: 15px;
-  }
+    .fastcar__headquarter-button {
+        width: 100%;
+        padding: 12px;
+        font-size: 15px;
+    }
 
-  .fastcar__headquarter-button-wrapper {
-    margin-top: 12px;
-  }
+    .fastcar__headquarter-button-wrapper {
+        margin-top: 12px;
+    }
 }

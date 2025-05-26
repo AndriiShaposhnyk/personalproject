@@ -120,7 +120,8 @@
   max-height: none;
   max-width: none;
   height: 100%;
-  transform: scale(1.4) translateY(10px) translateX(-15%);;
+  transform: scale(1.4) translateY(10px) translateX(-15%);
+  ;
 }
 
 @media (max-width: 768px) {

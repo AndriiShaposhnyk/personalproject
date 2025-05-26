@@ -3,27 +3,31 @@
 *,
 *::before,
 *::after {
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  overflow-x: hidden;
 }
 
 body {
   overflow-x: hidden;
 }
 
-:root {
-    scroll-behavior: smooth;
-    --font-main: 'Barlow Condensed', sans-serif;
-    --font-secondary: 'Ubuntu', sans-serif;
-    --font-pretitle-size: 14px;
-    --font-title-size: 65px;
-    --font-text-size: 20px;
-    --color-primary: #222222;
-    --color-secondary: #898989;
-    --color-accent: #f6c43d;
-    --color-brand: #1088e4;
-    --color-background: #ffffff;
-    --color-background-secondary: #f6f6f6;
-}
 
+:root {
+  scroll-behavior: smooth;
+  --font-main: 'Barlow Condensed', sans-serif;
+  --font-secondary: 'Ubuntu', sans-serif;
+  --font-pretitle-size: 14px;
+  --font-title-size: 65px;
+  --font-text-size: 20px;
+  --color-primary: #222222;
+  --color-secondary: #898989;
+  --color-accent: #f6c43d;
+  --color-brand: #1088e4;
+  --color-background: #ffffff;
+  --color-background-secondary: #f6f6f6;
+}

@@ -169,3 +169,27 @@
     font-size: 16px;
   }
 }
+
+@media (min-width: 769px) and (max-width: 1024px) {
+  .brief-history__row {
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
+  .brief-history__image,
+  .brief-history__text-block {
+    width: 50%;
+    height: 325px;
+  }
+
+  .brief-history__text-block {
+    padding: 40px;
+    text-align: left;
+  }
+
+  .brief-history__image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+}
