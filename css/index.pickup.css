@@ -57,3 +57,40 @@
   border-radius: 8px;
   background-color: transparent;
 }
+
+@media (max-width: 768px) {
+  .pickup-your-car {
+    padding: 60px 16px;
+  }
+
+  .pickup-your-car__container {
+    width: 100%;
+    padding: 0;
+  }
+
+  .pickup-your-car__title {
+    font-size: 32px;
+  }
+
+  .pickup-your-car__description {
+    font-size: 16px;
+    padding: 0 10px;
+    margin-bottom: 32px;
+  }
+
+  .pick-your-car__gallery {
+    grid-template-columns: 1fr;
+    gap: 24px;
+  }
+
+  .pickup-your-car__image {
+    padding: 0;
+    margin-top: 16px;
+  }
+
+  .pickup-your-car__image img {
+    width: 100%;
+    height: auto;
+    max-width: 100%;
+  }
+}

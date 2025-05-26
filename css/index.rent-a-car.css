@@ -104,3 +104,81 @@
     display: block;
     transform: translateX(5%)
 }
+
+@media (max-width: 768px) {
+  .rent-a-car {
+    min-height: auto;
+    padding: 60px 16px;
+  }
+
+  .rent-a-car__container {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    height: auto;
+    padding: 0;
+  }
+
+  .rent-a-car__content {
+    max-width: 100%;
+    padding: 0 16px;
+  }
+
+  .rent-a-car__title {
+    font-size: 36px;
+  }
+
+  .rent-a-car__description {
+    font-size: 16px;
+    margin-bottom: 24px;
+  }
+
+  .rent-a-car__buttons {
+    flex-direction: column;
+    gap: 12px;
+    align-items: center;
+  }
+
+  .rent-a-car__btn {
+    width: 100%;
+    max-width: 280px;
+    padding: 12px;
+    font-size: 15px;
+  }
+
+  .rent-a-car__image {
+    position: static;
+    width: 100%;
+    height: auto;
+    margin-top: 40px;
+    z-index: 1;
+  }
+
+  .rent-a-car__image img {
+    width: 100%;
+    height: auto;
+    transform: none;
+    object-fit: contain;
+  }
+}
+
+@media (max-width: 1200px) {
+  .rent-a-car {
+    min-height: auto;
+    padding: 40px 0;
+  }
+
+  .rent-a-car__container {
+    flex-direction: column;
+    text-align: left;
+    align-items: flex-start;
+  }
+
+  .rent-a-car__image img {
+    width: 100%;
+    height: auto;
+    display: block;
+    object-fit: cover; 
+    transform: none;
+  }
+}

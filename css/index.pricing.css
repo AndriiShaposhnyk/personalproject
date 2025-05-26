@@ -162,3 +162,55 @@
 .pricing__button:hover {
   background-color: var(--color-brand);
 }
+
+@media (max-width: 768px) {
+  .pricing {
+    padding: 60px 16px;
+  }
+
+  .pricing__title {
+    font-size: 36px;
+  }
+
+  .pricing__description {
+    font-size: 16px;
+    margin-bottom: 40px;
+  }
+
+  .pricing__cards {
+    flex-direction: column;
+    align-items: center;
+    gap: 24px;
+  }
+
+  .pricing__card {
+    height: auto;
+    padding: 24px 16px;
+    max-width: 100%;
+  }
+
+  .pricing__price {
+    font-size: 36px;
+  }
+
+  .pricing__item {
+    font-size: 15px;
+    padding-left: 20px;
+  }
+
+  .pricing__item::before {
+    font-size: 14px;
+    top: 2px;
+  }
+
+  .pricing__button {
+    width: 100%;
+    max-width: 280px;
+    padding: 12px;
+    font-size: 15px;
+  }
+
+  .pricing__image img {
+    object-position: center;
+  }
+}

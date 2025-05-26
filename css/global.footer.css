@@ -50,3 +50,29 @@
 .footer__rights {
   margin: 4px 0;
 }
+
+@media (max-width: 768px) {
+  .footer {
+    padding: 40px 16px 20px;
+    font-size: 13px;
+  }
+
+  .footer__container {
+    gap: 20px;
+  }
+
+  .footer__menu {
+    flex-direction: column;
+    gap: 16px;
+    align-items: center;
+  }
+
+  .footer__menu-link {
+    font-size: 14px;
+  }
+
+  .footer__bottom {
+    font-size: 12px;
+    margin-top: 20px;
+  }
+}

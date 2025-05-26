@@ -80,3 +80,54 @@
   line-height: 1.5;
   text-align: center;
 }
+
+@media (max-width: 768px) {
+  .cars-of-the-month {
+    padding: 60px 0;
+  }
+
+  .cars-of-the-month__title {
+    font-size: 32px;
+  }
+
+  .cars-of-the-month__description {
+    font-size: 16px;
+    padding: 0 16px;
+    margin-bottom: 32px;
+  }
+
+  .cars-of-the-month__list {
+    flex-direction: column;
+    align-items: center;
+    gap: 32px;
+  }
+
+  .cars-of-the-month__item {
+    width: 100%;
+    max-width: 320px;
+    padding: 16px;
+    text-align: center;
+  }
+
+  .car-of-the-month__image {
+    width: 100%;
+    height: auto;
+    max-height: 280px;
+    margin: 0 auto 12px;
+  }
+
+  .car-of-the-month__image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+
+  .cars-of-the-month__name {
+    font-size: 18px;
+  }
+
+  .cars-of-the-month__text {
+    font-size: 15px;
+    padding: 0 12px;
+  }
+}

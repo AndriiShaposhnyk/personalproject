@@ -122,3 +122,50 @@
   height: 100%;
   transform: scale(1.4) translateY(10px) translateX(-15%);;
 }
+
+@media (max-width: 768px) {
+  .request {
+    padding: 60px 16px;
+  }
+
+  .request__container {
+    flex-direction: column;
+    align-items: center;
+    gap: 40px;
+  }
+
+  .request__title {
+    font-size: 38px;
+    text-align: center;
+  }
+
+  .request__subtitle {
+    font-size: 16px;
+    max-width: 100%;
+    padding: 0 10px;
+  }
+
+  .request__form-block {
+    max-width: 100%;
+  }
+
+  .request__form {
+    width: 100%;
+  }
+
+  .request__input,
+  .request__textarea {
+    font-size: 15px;
+    padding: 12px;
+  }
+
+  .request__btn {
+    width: 100%;
+    font-size: 14px;
+    padding: 14px;
+  }
+
+  .request__image {
+    display: none;
+  }
+}

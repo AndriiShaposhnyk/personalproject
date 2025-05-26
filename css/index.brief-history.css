@@ -124,3 +124,48 @@
 .brief-history__year--underline-blue::after {
   background-color: var(--color-brand);
 }
+
+@media (max-width: 768px) {
+  .brief-history {
+    padding: 40px 16px;
+  }
+
+  .brief-history__title {
+    font-size: 40px;
+  }
+
+  .brief-history__text {
+    font-size: 16px;
+    margin-bottom: 40px;
+  }
+
+  .brief-history__row {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .brief-history__image,
+  .brief-history__text-block {
+    width: 100%;
+    height: auto;
+    border-radius: 12px;
+  }
+
+  .brief-history__image img {
+    width: 100%;
+    height: auto;
+  }
+
+  .brief-history__text-block {
+    padding: 24px 16px;
+    text-align: center;
+  }
+
+  .brief-history__year {
+    font-size: 48px;
+  }
+
+  .brief-history__event {
+    font-size: 16px;
+  }
+}
