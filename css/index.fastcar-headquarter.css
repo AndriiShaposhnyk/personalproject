@@ -1,7 +1,7 @@
 .fastcar__headquarter {
-  position: relative;
-  height: 450px; 
-  overflow: hidden;
+    position: relative;
+    height: 450px;
+    overflow: hidden;
 }
 
 .fastcar__headquarter-container {
@@ -46,6 +46,8 @@
     margin-bottom: 12px;
     line-height: 1.5;
     text-align: center;
+    width: 180px;
+    margin: 0 auto 12px;
 }
 
 .fastcar__headquarter-phone {
@@ -90,6 +92,12 @@
     text-decoration: none;
     border-radius: 30px;
     transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.fastcar__headquarter-button:hover {
+    transform: scale(1.1);
+    color: var(--color-primary);
+    transition: color 0.6s ease, transform 0.6s ease; 
 }
 
 .fastcar__headquarter-info {

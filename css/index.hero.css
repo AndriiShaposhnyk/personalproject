@@ -88,7 +88,7 @@
 }
 
 .hero__btn--secondary {
-    background-color: var(--color-background);
+    background-color: #fafafa;
     color: var(--color-accent);
 }
 

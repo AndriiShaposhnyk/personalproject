@@ -1,6 +1,6 @@
 .brief-history {
   padding: 80px 20px;
-  background-color: var(--color-background);
+  background-color: #f6f6f6;
   font-family: var(--font-main);
 }
 
@@ -11,7 +11,7 @@
 
 .brief-history__pretitle {
   font-size: 17px;
-  color: var(--color-accent); 
+  color: var(--color-accent);
   font-weight: 700;
   text-transform: uppercase;
   letter-spacing: 1px;
@@ -23,7 +23,7 @@
 .brief-history__title {
   font-size: 65px;
   font-weight: 800;
-  color: var(--color-primary); 
+  color: var(--color-primary);
   text-align: center;
   margin-bottom: 10px;
 }
@@ -37,8 +37,90 @@
   line-height: 1.6;
 }
 
-.brief-history-2010__image {
-  background-image: url('img/black-dashboard.webp');
-  transform: scaleX(-1);
+.brief-history__image img {
+  width: 585px;
+  height: 325px;
+  object-fit: cover;
+  border-radius: 12px;
 }
 
+.brief-history__image {
+  width: 585px;
+  height: 325px;
+  flex-shrink: 0;
+}
+
+.brief-history__row {
+  display: flex;
+  align-items: center;
+  gap: 0;
+  margin-bottom: 40px;
+  justify-content: space-between;
+  background-color: transparent;
+}
+
+.brief-history__row--dark {
+  background-color: #0c0c0c;
+  color: #ffffff;
+}
+
+.brief-history__row--light {
+  background-color: #ffffff;
+  color: #000000;
+}
+
+.brief-history__row--grey {
+  background-color: #dde2e9;
+  color: #000000;
+}
+
+.brief-history__text-block {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 40px;
+  border-radius: 0 12px 12px 0;
+  width: 585px;
+  height: 325px;
+  flex-shrink: 0;
+}
+
+.brief-history__event {
+  font-size: 18px;
+  line-height: 1.6;
+  color: var(--color-secondary);
+}
+
+.brief-history__year {
+  font-size: 90px;
+  font-weight: 800;
+  margin-bottom: 20px;
+  position: relative;
+  display: inline-block;
+}
+
+.brief-history__year--white {
+  color: white;
+}
+
+.brief-history__year--black {
+  color: black;
+}
+
+.brief-history__year::after {
+  content: "";
+  position: absolute;
+  bottom: -10px;
+  left: 0;
+  width: 60px;
+  height: 4px;
+  border-radius: 2px;
+}
+
+.brief-history__year--underline-yellow::after {
+  background-color: var(--color-accent);
+}
+
+.brief-history__year--underline-blue::after {
+  background-color: var(--color-brand);
+}
